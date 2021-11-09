@@ -8,10 +8,10 @@ This python program collects the name, price, status, shipping, number sold, and
 2. Added a argument to download the file as a CSV `parser.add_argument('--csv', default=False)`
 3. Built the url and looped over the first 10 Ebay pages.
 4. *Requests* to download the html file.
-5. *bs4 or Beautifulsoup4* to parse through different elements of Ebay listings using CSS selectors. 
+5. *bs4 or Beautifulsoup4* to parse through different elements of Ebay listings using CSS selectors and appended them into a dictionary.
 6. Used a if/else statement to determine whether to export the file as a JSON or CSV
-7. Used the *Json* package to export the file as JSON 
-8. Used the *Csv* package to export the file as CSV 
+7. *Json* package to export the file as JSON 
+8. *Csv* package to export the file as CSV 
 
 ### How do you run the `ebay-dl.py` file?
 
