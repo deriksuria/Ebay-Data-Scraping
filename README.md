@@ -3,6 +3,8 @@
 [**project instructions** ](https://github.com/mikeizbicki/cmc-csci040/tree/2021fall/hw_03)
 
 ## What my program does:
+This python program collects the name, price, status, shipping, number sold, and status of specified Ebay items. I used the following packages: 
+1. Argparse to generate the command line arguments. 
 
 ### How do you run the `ebay-dl.py` file?
 
