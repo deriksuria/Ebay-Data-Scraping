@@ -3,8 +3,15 @@
 [**project instructions** ](https://github.com/mikeizbicki/cmc-csci040/tree/2021fall/hw_03)
 
 ## What my program does:
-This python program collects the name, price, status, shipping, number sold, and status of specified Ebay items. I used the following packages: 
-1. Argparse to generate the command line arguments. 
+This python program collects the name, price, status, shipping, number sold, and status of specified Ebay items. I used the following packages/steps.
+1. *Argparse* to generate the command line arguments. 
+2. Added a argument to download the file as a CSV `parser.add_argument('--csv', default=False)`
+3. Built the url and looped over the first 10 Ebay pages.
+4. *Requests* to download the html file.
+5. *bs4 or Beautifulsoup4* to parse through different elements of Ebay listings using CSS selectors. 
+6. Used a if/else statement to determine whether to export the file as a JSON or CSV
+7. Used the *Json* package to export the file as JSON 
+8. Used the *Csv* package to export the file as CSV 
 
 ### How do you run the `ebay-dl.py` file?
 
